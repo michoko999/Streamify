@@ -155,11 +155,10 @@ END_COLOR = BCOLORS.ENDC
 
 
 if __name__ == '__main__':
-    os.system('clear')
+    os.system('cls')
     logo()
     # time.sleep(1000)
     func_del_users()
-    input_data()
 
     task = int(input('\033[93m' + '''Choose task:
 [1] play 
